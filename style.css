@@ -1,0 +1,150 @@
+/* navbar */
+.navbar{
+    background-color: transparent;
+}
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('assets/istock-1255872241.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* about section image css */
+.imageAboutPage1 {
+    width: 100%;
+}
+
+.col-lg-8 {
+    padding: 100px;
+}
+
+/* education section */
+.servicesText1.card {
+    height: 380px;
+    cursor: pointer;
+  }
+
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card-text {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText1:hover {
+    border: 1px solid #008000;
+}
+
+.imageAboutPage2 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageAboutPage3 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageAboutPage4     {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* services section css */
+.servicesText2.card {
+    height: 380px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card-text {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText2:hover {
+    border: 1px solid #008000;
+}
+
+.imageAboutPage5 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageAboutPage6 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imageAboutPage7 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* contact section */
+.col-lg-6 {
+    padding: 70px;
+    text-align: center;
+    margin: auto;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    padding: 20px;
+    font-size: small;
+    line-height: 0.3;
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
